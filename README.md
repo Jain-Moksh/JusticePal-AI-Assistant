@@ -1,12 +1,4 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To address the lack of accessible legal support, we developed a chatbot that provides instant, scenario-based guidance for common legal situations.
+Users can simply describe their issue in plain language—such as a property dispute, workplace issue, or consumer complaint—and the chatbot analyzes the input to suggest appropriate next steps.
+It offers clear, non-technical explanations, points users toward relevant laws or resources, and helps them understand their rights and possible actions.
+Designed to be easy to use and always available, this solution empowers individuals with timely legal awareness, without the need for immediate legal counsel
