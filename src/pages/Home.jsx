@@ -69,7 +69,10 @@ const Home = () => {
 
         <div className="mt-16 mb-20 mx-10 grid gap-8 md:grid-cols-3">
           {/* Card 1 */}
-          <div className="bg-black bg-opacity-60 p-4 rounded-md text-white text-center shadow-md hover:scale-105 transition-transform duration-300">
+          <div
+            className="bg-black bg-opacity-60 p-4 rounded-md text-white text-center shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer"
+            onClick={() => navigate("/rules")}
+          >
             <img
               src={card1}
               alt="Know Your Rights"
@@ -92,7 +95,13 @@ const Home = () => {
           {/* Card 2 */}
           <PoliceCard />
           {/* Card 3 */}
-          <div className="bg-black bg-opacity-60 p-4 rounded-md text-white text-center shadow-md hover:scale-105 transition-transform duration-300">
+          <div
+            className="bg-black bg-opacity-60 p-4 rounded-md text-white text-center shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer"
+            onClick={() =>
+              (window.location.href =
+                "https://mumbaipolice.gov.in/OnlineComplaints?ps_id=0")
+            }
+          >
             <img
               src={card3}
               alt="File a Complaint"
