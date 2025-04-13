@@ -11,8 +11,8 @@ const PoliceCard = () => {
             (position) => {
               const latitude = position.coords.latitude;
               const longitude = position.coords.longitude;
-              const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=police+station&query_place_id=&center=LAT,LONG
-`;
+              const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=police+station&center=${latitude},${longitude}`;
+
               window.open(googleMapsUrl, "_blank");
             },
             (error) => {
