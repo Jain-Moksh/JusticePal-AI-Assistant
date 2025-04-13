@@ -7,8 +7,8 @@ import bgMobile from "../assets/bg_mobile.png";
 import bgTablet from "../assets/bg_tablet.png";
 import bgLaptop from "../assets/bg_laptop.png";
 import card1 from "../assets/card1.png";
-import card2 from "../assets/card2.jpg";
 import card3 from "../assets/card3.png";
+import PoliceCard from "../components/PoliceCard";
 
 const Home = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -90,25 +90,7 @@ const Home = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-black bg-opacity-60 p-4 rounded-md text-white text-center shadow-md hover:scale-105 transition-transform duration-300">
-            <img
-              src={card2}
-              alt="Police Stations Nearby"
-              className="mx-auto w-full h-48 object-cover rounded-md border-2 border-[#8a2be2]"
-            />
-            <div className="mt-4">
-              <span className="bg-[#d9a066] text-black font-bold py-1 px-2 text-sm rounded">
-                02
-              </span>
-              <h2 className="text-lg md:text-xl font-semibold mt-2">
-                POLICE STATIONS NEAR BY
-              </h2>
-              <p className="mt-2 text-sm md:text-base">
-                Quickly locate police stations around you with our assistance.
-              </p>
-            </div>
-          </div>
-
+          <PoliceCard />
           {/* Card 3 */}
           <div className="bg-black bg-opacity-60 p-4 rounded-md text-white text-center shadow-md hover:scale-105 transition-transform duration-300">
             <img
